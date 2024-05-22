@@ -1,0 +1,256 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.main-about-heading{
+    width:90%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+
+}
+
+
+.main-about-heading h1{
+    font-size:50px;
+    color:black;
+    margin-bottom: 25px;
+    position: relative;
+
+}
+
+.main-about-heading h1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: #298b29;
+}
+
+.main-about-container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.main-about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-about-image{
+    flex:1;
+    margin-right: 40px;
+    overflow: hidden;
+}
+
+.main-about-image img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.main-about-content{
+    flex: 1;
+
+}
+
+.main-about-content h2{
+    font-size: x-large;
+    margin-bottom: 15px ;
+    color: #044204;
+
+}
+
+.main-about-content p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+    font-weight:bold;
+
+}
+
+@media screen and (max-width:768px){
+    .main-about-heading{
+        padding: 0px 20px;
+    }
+
+    .main-about-heading h1{
+        font-size: 36px;
+    }
+
+    .main-about-heading p{
+        font-size: 17px;
+        margin-bottom: 0px;
+    }
+
+    .main-about-container{
+        padding: 0px;
+    }
+
+    .main-about{
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .main-about-image{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .main-about-content p{
+        padding: 0px;
+        font-size: 16px;
+    }
+}
+
+
+.branches-about-heading{
+    width:90%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+
+}
+
+
+.branches-about-heading h1{
+    font-size:50px;
+    color:black;
+    margin-bottom: 25px;
+    position: relative;
+
+}
+
+.branches-about-heading h1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: #298b29;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.about-img {
+    flex-basis: 45%;
+}
+.about-loc{
+    display: flex;
+    flex-flow: column wrap;
+}
+.about-img img {
+    width: 500px;
+}
+iframe{
+    width: 500px;
+}
+.about-content {
+    flex-basis: 50%;
+}
+
+.about-content h2 {
+    color: #044204;
+}
+
+.about-content > p {
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+hr{
+    background-color: #044204;
+    height: 4px;
+}
+
+.services-about-heading{
+    width:90%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+
+}
+
+
+.services-about-heading h1{
+    font-size:50px;
+    color:black;
+    margin-bottom: 25px;
+    position: relative;
+
+}
+
+.services-about-heading h1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: #298b29;
+}
+
+table {
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border: 2px solid #044204;
+    padding: 10px;
+    font-weight: bold;
+  }
+  th {
+    background-color: #044204; 
+    color: white; 
+    font-weight: bolder;
+  }
+
+@media screen and (max-width: 768px) {
+    .about-img {
+        flex-basis: 45%;
+        margin-bottom: 0; /* Reset margin for larger screens */
+    }
+
+    .about-content {
+        flex-basis: 50%;
+    }
+    .about-section{
+        flex-flow: column wrap;
+    }
+    .about-img img{
+        width: 100%;
+    }
+    iframe{
+        width: 100%;
+    }
+}

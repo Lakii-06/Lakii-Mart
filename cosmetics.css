@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+header, footer {
+  background-color: white;
+  padding: 20px;
+}
+
+
+main {
+  padding: 20px;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 2px solid #044204;
+  padding: 8px;
+  text-align: left;
+  font-size: larger;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Image styles */
+img:not(.logo > img) {
+  max-width: 100px;
+}
+
+/* Button styles */
+button {
+  padding: 10px 15px;
+  background-color: #044204;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #51ac37;
+}

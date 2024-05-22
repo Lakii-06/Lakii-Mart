@@ -1,0 +1,132 @@
+body {
+    background-color: white;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.l-container {
+    width: 42%;
+    margin: auto;
+    padding: 20px;
+    background-color:   #044204;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]
+input[type="sub-code"]{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+input[type="submit"] {
+    width: 97%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #51ac37;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #76db76;
+}
+
+
+.benefits-section {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 40px auto;
+    border: solid 10px #044204;
+    border-radius: 10px;
+}
+
+.benefits-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #044204;
+}
+
+.schemes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.scheme {
+    background-color:   #044204;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.scheme:hover {
+    transform: translateY(-10px);
+}
+
+.scheme-title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.scheme-icon img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.scheme-benefits ul {
+    padding: 50px;
+    text-align: left;
+}
+
+.scheme-benefits li {
+    font-size: 1.1em;
+    margin: 10px 0;
+    color: white;
+}
+
+.subscribe-button {
+    background-color: #51ac37;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.subscribe-button:hover {
+    background-color: #76db76;
+}
+
+.silver { color: #51ac37; }
+.gold { color: #51ac37; }
+.platinum { color:#51ac37; }
+
