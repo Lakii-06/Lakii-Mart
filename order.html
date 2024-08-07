@@ -11,433 +11,161 @@
 </head>
 
 <header>
-    <section>
-        <ul id="upper-part">
-            <li><a href="./order.html"> <i class="fa-solid fa-cart-plus"></i> Order</a></li>
-            <li><a href="./myaccount.html"> <i class="fa-solid fa-person"></i> My Account </a></li>
-            <li><a href="./about us.html"> <i class="fa-solid fa-location-dot"> </i> Stores</a></li>
-        </ul>
-  
-        <section class="logo">
-            <img src="./images/lakii mart.png"> 
+  <section>
+      <ul id="upper-part">
+          <li><a href="./order.html"> <i class="fa-solid fa-cart-plus"></i> Order</a></li>
+          <li><a href="./myaccount.html"> <i class="fa-solid fa-person"></i> My Account </a></li>
+          <li><a href="./about us.html"> <i class="fa-solid fa-location-dot"> </i> Stores</a></li>
+      </ul>
+
+      <section class="logo">
+          <img src="./images/lakii mart.png"> 
+      </section>
+
+      <section id="search-section1">
+        <section class="search-container1">
+            <input type="text" placeholder="Search...">
+            <a href="#"></a>
+            <i class="fas fa-search"></i>
         </section>
-  
-        <section id="search-section">
-            <section class="search-container">
-                <input type="text" placeholder="Search...">
-                <a href="#"></a>
-                <i class="fas fa-search"></i>
-            </section>
-        </section>
-         
-        <nav id="navbar">
-            <a href="./index.html">Home</a>
-            <a href="./products.html">Products</a>
-            <a href="./about us.html">About Us</a>
-            <a href="./order.html">Order</a>
-            <a href="./loyalty registration.html">Loyalty registration</a>
-        </nav>
-  
-    </section>
-  </header>
+      </section>
+
+       
+      <nav id="navbar">
+          <a href="./index.html">Home</a>
+          <a href="./products.html">Products</a>
+          <a href="./about us.html">About Us</a>
+          <a href="./order.html">Order</a>
+          <a href="./loyalty registration.html">Loyalty registration</a>
+      </nav>
+
+  </section>
+</header>
 
 <body>
- 
-<section class="fruits">
-<h1>Fruits</h1>       
-<section class="item-container">
-    <section class="item" id="i1">
-     <img src="./images/apple.jpeg" alt="Item 1">
-     <h2>Apple (kg):</h2>
-     <p><b>Rs.950/=</b></p>
-     <input type="number" min="0" id="apple-qty" placeholder="Quantity" >
-     <button onclick="addItem('Apple', 750, 'apple-qty')">Add to Cart</button>
-    </section>
-    <section class="item" id="i2">
-     <img src="./images/banana.jpg " alt="Item 2">
-     <h2>Banana (kg):</h2>
-     <p><b>Rs.400/=</b></p>
-     <input type="number" min="0" id="banana-qty" placeholder="Quantity">
-     <button onclick="addItem('Banana', 750, 'banana-qty')">Add to Cart</button>
-    </section>
-    <section class="item" id="i3">
-     <img src="./images/orange.jpg" alt="Item 3">
-     <h2>Orange (kg):</h2>
-     <p><b>Rs.750/=</b></p>
-     <input type="number" min="0" id="orange-qty" placeholder="Quantity">
-     <button onclick="addItem('Orange', 750, 'orange-qty')">Add to Cart</button>
-    </section>
-    <section class="item" id="i4">
-        <img src="./images/mango.jpg" alt="Item 4">
-        <h2>Mango (kg):</h2>
-        <p><b>Rs.1400/=</b></p>
-        <input type="number" min="0" id="mango-qty" placeholder="Quantity">
-     <button onclick="addItem('Mango', 750, 'mango-qty')">Add to Cart</button>
-    </section>
-    <section class="item" id="i5">
-        <img src="./images/grapes.jpg" alt="Item 5">
-        <h2>Grape (kg):</h2>
-        <p><b>Rs.930/=</b></p>
-        <input type="number" min="0" id="grape-qty" placeholder="Quantity">
-     <button onclick="addItem('Grape', 750, 'grape-qty')">Add to Cart</button>
-    </section>
-    <section class="item" id="i6">
-        <img src="./images/pineapple.jpg" alt="Item 6">
-        <h2>Pineapple (kg):</h2>
-        <p><b>Rs.900/=</b></p>
-        <input type="number" min="0" id="pineapple-qty" placeholder="Quantity">
-     <button onclick="addItem('Pineapple', 750, 'pineapple-qty')">Add to Cart</button>
-    </section>
-    <section class="item" id="i7">
-        <img src="./images/strawberry.jpg" alt="Item 7">
-        <h2>Strawberry (kg):</h2>
-        <p><b>Rs.545/=</b></p>
-        <input type="number" min="0" id="strawberry" placeholder="Quantity">
-     <button onclick="addItem('Strawberry', 750, 'strawberry-qty')">Add to Cart</button>
-    </section>
-    <section class="item" id="i8">
-        <img src="./images/watermelon.jpg" alt="Item 8">
-        <h2>Watermelon (kg):</h2>
-        <p><b>Rs.235/=</b></p>
-        <input type="number" min="0" id="watermelon" placeholder="Quantity">
-     <button onclick="addItem('Watermelon', 750, 'watermelon-qty')">Add to Cart</button>
-    </section>
-</section>
-   
-<br>
 
-<section class="vegetables">
-<h1>Vegetables</h1>
-<section class="item-container">
-    <section class="item" id="i1">
-        <img src="./images/beetroot.jpg" alt="Item 9">
-        <h2>Beetroot (kg):</h2>
-        <p><b>Rs.525/=</b></p>
-        <input type="number" min="0" id="beetroot-qty" placeholder="Quantity">
-     <button onclick="addItem('Beetroot', 750, 'beetroot-qty')">Add to Cart</button>
-       </section>
-       <section class="item" id="i2">
-        <img src="./images/bittergourd.jpg" alt="Item 10">
-        <h2>Bittergourd (kg):</h2>
-        <p><b>Rs.415/=</b></p>
-        <input type="number" min="0" id="bittergourd-qty" placeholder="Quantity">
-     <button onclick="addItem('Bittergourd', 750, 'bittergourd-qty')">Add to Cart</button>
-       </section>
-       <section class="item" id="i3">
-        <img src="./images/brinjal.jpg" alt="Item 11">
-        <h2>Brinjal (kg):</h2>
-        <p><b>Rs.320/=</b></p>
-        <input type="number" min="0" id="brinjal-qty" placeholder="Quantity">
-     <button onclick="addItem('Brinjal', 750, 'brinjal-qty')">Add to Cart</button>
-       </section>
-       <section class="item" id="i4">
-           <img src="./images/broccoli.jpg" alt="Item 12">
-           <h2>Broccoli (kg):</h2>
-           <p><b>Rs.425/=</b></p>
-           <input type="number" min="0" id="broccoli-qty" placeholder="Quantity">
-     <button onclick="addItem('Broccoli', 750, 'broccoli-qty')">Add to Cart</button>
-       </section>
-       <section class="item" id="i5">
-           <img src="./images/cabbage.jpeg" alt="Item 13">
-           <h2>Cabbage (kg):</h2>
-           <p><b>Rs.243/=</b></p>
-           <input type="number" min="0" id="cabbage-qty" placeholder="Quantity">
-     <button onclick="addItem('Cabbage', 750, 'cabbage-qty')">Add to Cart</button>
-       </section>
-       <section class="item" id="i6">
-           <img src="./images/cauliflower.jpg" alt="Item 14">
-           <h2>Cauliflower (kg):</h2>
-           <p><b>Rs.425/=</b></p>
-           <input type="number" min="0" id="cauliflower-qty" placeholder="Quantity">
-     <button onclick="addItem('Cauliflower', 750, 'cauliflower-qty')">Add to Cart</button>
-       </section>
-       <section class="item" id="i7">
-           <img src="./images/celery.jpeg" alt="Item 15">
-           <h2>Celery (kg):</h2>
-           <p><b>Rs.500/=</b></p>
-           <input type="number" min="0" id="celery-qty" placeholder="Quantity">
-     <button onclick="addItem('Celery', 750, 'celery-qty')">Add to Cart</button>
-       </section>
-       <section class="item" id="i8">
-           <img src="./images/garlic.jpg" alt="Item 16">
-           <h2>Garlic (kg):</h2>
-           <p><b>Rs.300/=</b></p>
-           <input type="number" min="0" id="garlic-qty" placeholder="Quantity">
-     <button onclick="addItem('Garlic', 750, 'garlic-qty')">Add to Cart</button>
-       </section>
-   </section>
+  <form>
+    <!-- Personal Information -->
+    <label for="first-name">First Name:</label>
+    <input type="text" id="first-name" name="first-name" required>
+
+    <label for="last-name">Last Name:</label>
+    <input type="text" id="last-name" name="last-name" required>
+
+    <label for="contact-number">Contact Number:</label>
+    <input type="tel" id="contact-number" name="contact-number" required>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address" required>
+
+    <label for="city">City/Town:</label>
+    <input type="text" id="city" name="city" required>
+
+    <label for="zip-code">Zip Code:</label>
+    <input type="text" id="zip-code" name="zip-code" required>
+
+    <label for="country">Country:</label>
+    <input type="text" id="country" name="country" required>
+
+    <!-- Accepted Cards -->
+    <p>Accepted Cards:</p>
+    <ul>
+        <li><img src="./images/visa.png" alt="Visa"></li>
+        <li><img src="./images/mastercard.png" alt="Mastercard"></li>
+        <li><img src="./images/american express.png" alt="American Express"></li>
+    </ul>
+
+    <!-- Payment Information -->
+    <label for="card-number">Card Number:</label>
+    <input type="text" id="card-number" name="card-number" required>
+
+    <label for="name-on-card">Name on Card:</label>
+    <input type="text" id="name-on-card" name="name-on-card" required>
+
+    <label for="exp-month">Exp Month:</label>
+    <input type="month" id="exp-month" name="exp-month" required>
+
+    <label for="exp-year">Exp Year:</label>
+    <input type="number" id="exp-year" name="exp-year" required>
+
+    <label for="cvv">CVV:</label>
+    <input type="number" id="cvv" name="cvv" required>
+
+    <!-- Order Information -->
+    <label for="product1">Order 1:</label>
+    <input type="text" id="product1" name="product1" required>
+
+    <label for="product2">Order 2:</label>
+    <input type="text" id="product2" name="product2" required>
+
+    <label for="product3">Order 3:</label>
+    <input type="text" id="product3" name="product3" required>
+
+    <label for="product4">Order 4:</label>
+    <input type="text" id="product4" name="product4" required>
+
+    <label for="product5">Order 5:</label>
+    <input type="text" id="product5" name="product5" required>
+
+    <!-- Agreement Checkbox -->
+    <label for="agreement">
+        <input type="checkbox" id="agreement" name="agreement">
+        I have read all the rules and regulations and accept everything
+    </label>
+
+    <!-- Submit Button -->
+    <button type="submit">Order</button>
+</form>
 
 <br>
 
-<section class="dairy_produce">
-   <h1>Dairy produce</h1>
-   <section class="item-container">
-    <section class="item" id="i1">
-        <img src="./images/milk.jpeg" alt="Item 17">
-        <h2>Milk (quantity):</h2>
-        <p><b>Rs.515/=</b></p>
-        <input type="number" min="0" id="milk-qty" placeholder="Quantity">
-     <button onclick="addItem('Milk', 750, 'milk-qty')">Add to Cart</button>
-       </section>
-       <section class="item" id="i2">
-        <img src="./images/cheese.jpg" alt="Item 18">
-        <h2>Cheese (quantity):</h2>
-        <p><b>Rs.1200/=</b></p>
-        <input type="number" min="0" id="cheese-qty" placeholder="Quantity">
-     <button onclick="addItem('Cheese', 750, 'cheese-qty')">Add to Cart</button>
-       </section>
-       <section class="item" id="i3">
-        <img src="./images/yogurt.jpg" alt="Item 19">
-        <h2>Yogurt (quantity):</h2>
-        <p><b>Rs.150/=</b></p>
-        <input type="number" min="0" id="yogurt-qty" placeholder="Quatity">
-     <button onclick="addItem('Yogurt', 750, 'yogurt-qty')">Add to Cart</button>
-       </section>
-       <section class="item" id="i4">
-           <img src="./images/butter.jpg" alt="Item 20">
-           <h2>Butter (quantity):</h2>
-           <p><b>Rs.652/=</b></p>
-           <input type="number" min="0" id="butter-qty" placeholder="Quantity">
-     <button onclick="addItem('Butter', 750, 'butter-qty')">Add to Cart</button>
-       </section>
-       <section class="item" id="i5">
-           <img src="./images/cream.jpg" alt="Item 21">
-           <h2>Cream (quantity):</h2>
-           <p><b>Rs.320/=</b></p>
-           <input type="number" min="0" id="cream-qty" placeholder="Quantity">
-     <button onclick="addItem('Cream', 750, 'cream-qty')">Add to Cart</button>
-       </section>
-       <section class="item" id="i6">
-           <img src="./images/icecream.jpeg" alt="Item 22">
-           <h2>Cornetto (quantity):</h2>
-           <p><b>Rs.700/=</b></p>
-           <input type="number" min="0" id="icecream-qty" placeholder="Quantity">
-     <button onclick="addItem('Icecream', 750, 'icecream-qty')">Add to Cart</button>
-       </section>
-       <section class="item" id="i7">
-           <img src="./images/cottage cheese.jpg" alt="Item 23">
-           <h2>Cottage cheese (quantity):</h2>
-           <p><b>Rs.750/=</b></p>
-           <input type="number" min="0" id="cottagecheese-qty" placeholder="Quantity">
-     <button onclick="addItem('Cottage cheese', 750, 'cottagecheese-qty')">Add to Cart</button>
-       </section>
-       <section class="item" id="i8">
-           <img src="./images/kefir.jpeg" alt="Item 24">
-           <h2>Kefir (quantity):</h2>
-           <p><b>Rs.300/=</b></p>
-           <input type="number" min="0" id="kefir-qty" placeholder="Quantity">
-     <button onclick="addItem('Kefir', 750, 'kefir-qty')">Add to Cart</button>
-       </section>
-   </section>
-</section>
-
-  <br>
-
-  <section class="meat_seafood">
-    <h1>Meat and Seafood</h1>
-    <section class="item-container">
-    <section class="item" id="i1">
-        <img src="./images/chicken.jpg" alt="Item 25">
-        <h2>Chicken (kg):</h2>
-        <p><b>Rs.1100/=</b></p>
-        <input type="number" min="0" id="chicken-qty" placeholder="Quantity">
-     <button onclick="addItem('Chicken', 750, 'chicken-qty')">Add to Cart</button>
-       </section>
-       <section class="item" id="i2">
-        <img src="./images/beef.jpg" alt="Item 26">
-        <h2>Beef (kg):</h2>
-        <p><b>Rs.1400/=</b></p>
-        <input type="number" min="0" id="beef-qty" placeholder="Quantity">
-     <button onclick="addItem('Beef', 750, 'beef-qty')">Add to Cart</button>
-       </section>
-       <section class="item" id="i3">
-        <img src="./images/pork.jpg" alt="Item 27">
-        <h2>Pork (kg):</h2>
-        <p><b>Rs.1300/=</b></p>
-        <input type="number" min="0" id="pork-qty" placeholder="Quantity">
-     <button onclick="addItem('Pork', 750, 'pork-qty')">Add to Cart</button>
-       </section>
-       <section class="item" id="i4">
-           <img src="./images/lamb.jpg" alt="Item 28">
-           <h2>Lamb (kg):</h2>
-           <p><b>Rs.2000/=</b></p>
-           <input type="number" min="0" id="lamb-qty" placeholder="Quantity">
-     <button onclick="addItem('Lamb', 750, 'lamb-qty')">Add to Cart</button>
-       </section>
-       <section class="item" id="i5">
-           <img src="./images/salmon.jpg" alt="Item 29">
-           <h2>Salmon (kg):</h2>
-           <p><b>Rs.800/=</b></p>
-           <input type="number" min="0" id="salmon-qty" placeholder="Quantity">
-     <button onclick="addItem('Salmon', 750, 'salmon-qty')">Add to Cart</button>
-       </section>
-       <section class="item" id="i6">
-           <img src="./images/shrimp.jpg" alt="Item 30">
-           <h2>Shrimp (kg):</h2>
-           <p><b>Rs.1500/=</b></p>
-           <input type="number" min="0" id="shrimp-qty" placeholder="Quantity">
-     <button onclick="addItem('Shrimp', 750, 'shrimp-qty')">Add to Cart</button>
-       </section>
-       <section class="item" id="i7">
-           <img src="./images/tuna.jpg" alt="Item 31">
-           <h2>Tuna (kg):</h2>
-           <p><b>Rs.1300/=</b></p>
-           <input type="number" min="0" id="tuna-qty" placeholder="Quantity">
-     <button onclick="addItem('Tuna', 750, 'tuna-qty')">Add to Cart</button>
-       </section>
-       <section class="item" id="i8">
-           <img src="./images/crab.jpg" alt="Item 32">
-           <h2>Crab (kg):</h2>
-           <p><b>Rs.1600/=</b></p>
-           <input type="number" min="0" id="crab-qty" placeholder="Quantity">
-     <button onclick="addItem('Crab', 750, 'crab-qty')">Add to Cart</button>
-       </section>
-   </section>
-</section>
-
-<br>
-
-<section class="baking_cooking_ingredients">
-  <h1>Baking and Cooking Ingredients</h1>
-  <section class="item-container">
-  <section class="item" id="i1">
-    <img src="./images/flour.jpg" alt="Item 33">
-    <h2>Flour (quanity):</h2>
-    <p><b>Rs.400/=</b></p>
-    <input type="number" min="0" id="flour-qty" placeholder="Quantity">
-     <button onclick="addItem('Flour', 750, 'flour-qty')">Add to Cart</button>
-   </section>
-   <section class="item" id="i2">
-    <img src="./images/sugar.jpg" alt="Item 34">
-    <h2>Sugar (quantity):</h2>
-    <p><b>Rs.335/=</b></p>
-    <input type="number" min="0" id="sugar-qty" placeholder="Quantity">
-     <button onclick="addItem('Sugar', 750, 'sugar-qty')">Add to Cart</button>
-   </section>
-   <section class="item" id="i3">
-    <img src="./images/salt.jpg" alt="Item 35">
-    <h2>Salt (quantity):</h2>
-    <p><b>Rs.140/=</b></p>
-    <input type="number" min="0" id="salt-qty" placeholder="Quantity">
-     <button onclick="addItem('Salt', 750, 'salt-qty')">Add to Cart</button>
-   </section>
-   <section class="item" id="i4">
-       <img src="./images/baking powder.jpeg" alt="Item 36">
-       <h2>Baking powder (quantity):</h2>
-       <p><b>Rs.2350/=</b></p>
-       <input type="number" min="0" id="bakingpowder-qty" placeholder="Quantity">
-     <button onclick="addItem('Baking powder', 750, 'bakingpowder-qty')">Add to Cart</button>
-   </section>
-   <section class="item" id="i5">
-       <img src="./images/olive oil.jpg" alt="Item 37">
-       <h2>Olive oil (quantity):</h2>
-       <p><b>Rs.600/=</b></p>
-       <input type="number" min="0" id="oliveoil-qty" placeholder="Quantity">
-     <button onclick="addItem('Olive oil', 750, 'oliveoil-qty')">Add to Cart</button>
-   </section>
-   <section class="item" id="i6">
-       <img src="./images/vanilla extract.jpeg" alt="Item 38">
-       <h2>Vanilla extract (quantity):</h2>
-       <p><b>Rs.800/=</b></p>
-       <input type="number" min="0" id="vanillaextract-qty" placeholder="Quantity">
-     <button onclick="addItem('Vanilla extract', 750, 'vanillaextract-qty')">Add to Cart</button>
-   </section>
-   <section class="item" id="i7">
-       <img src="./images/yeast.jpg" alt="Item 39">
-       <h2>Yeast (qunatity):</h2>
-       <p><b>Rs.450/=</b></p>
-       <input type="number" min="0" id="yeast-qty" placeholder="Quantity">
-     <button onclick="addItem('Yeast', 750, 'yeast-qty')">Add to Cart</button>
-   </section>
-   <section class="item" id="i8">
-       <img src="./images/baking soda.jpeg" alt="Item 40">
-       <h2>Baking soda (quantity):</h2>
-       <p><b>Rs.300/=</b></p>
-       <input type="number" min="0" id="bakingsoda-qty" placeholder="Quantity">
-     <button onclick="addItem('Baking soda', 750, 'bakingsoda-qty')">Add to Cart</button>
-   </section>
-</section>
-</section>
-
-<section id="c-text">
-    <h2>Cart</h2>
-    <table id="cart-table">
-        <thead>
-            <tr>
-                <th>Item</th>
-                <th>Quantity</th>
-                <th>Price</th>
-                <th>Action</th>
-            </tr>
-        </thead>
-        <tbody>
-
-        </tbody>
-    </table>
-
-    <p id="total-price"></p>
-    
-    <button id="save-favorite" onclick="saveFavorite()">Add to Favorites</button>
-    <button id="apply-favorite" onclick="applyFavorite()">Apply Favorites</button>
-    <a href="./checkout.html"><button id="buy-now">Buy Now</button></a>
-
-</section>
-
-    <script src="order.js"></script>
-    
-</body>
-
-<br>
-
-
-
-    <footer class="footer">
-        <section class="container">
-          <section class="row">
-            <section class="footer-col">
-              <h4>Quick Links</h4>
-              <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./products.html">Products</a></li>
-                <li><a href="./about us.html">About Us</a></li>
-                <li><a href="./order.html">Order</a></li>
-                <li><a href="./loyalty registration.html">Loyalty Registration</a></li>
-              </ul>
-            </section>
-            <section class="footer-col">
-              <h4>Products</h4>
-              <ul>
-                <li><a href="./dairy products.html">Dairy products</a></li>
-                <li><a href="./vegetables.html">Vegetables</a></li>
-                <li><a href="./cosmetics.html">Cosmetics & Skin care</a></li>
-              </ul>
-            </section>
-            <section class="footer-col">
-              <h4>Follow us</h4>
-              <section class="social-links">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-whatsapp"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
-                <a href="#"><i class="fab fa-tiktok"></i></a>
-              </section>
-            </section>
+  <footer class="footer">
+    <section class="container">
+      <section class="row">
+        <section class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./products.html">Products</a></li>
+            <li><a href="./about us.html">About Us</a></li>
+            <li><a href="./order.html">Order</a></li>
+            <li><a href="./loyalty registration.html">Loyalty Registration</a></li>
+          </ul>
+        </section>
+        <section class="footer-col">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="./dairy products.html">Dairy products</a></li>
+            <li><a href="./vegetables.html">Vegetables</a></li>
+            <li><a href="./cosmetics.html">Cosmetics & Skin care</a></li>
+          </ul>
+        </section>
+        <section class="footer-col">
+          <h4>Follow us</h4>
+          <section class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
           </section>
         </section>
-      </footer>
-          <section id="footerdata">
-            <p>Copyright © 2024; Designed by Lakdinu Weragama</p>
-          </section>
-        </section>
-           
-      
-      
-      
-      
-      
-      </html>
-      
-
-
-      
-      
+      </section>
+    </section>
+  </footer>
+      <section id="footerdata">
+        <p>Copyright © 2024; Designed by Lakdinu Weragama</p>
+      </section>
+    </section>
+       
+  
+  
+  
+  
+  </body>
+  </html>
+  
+  

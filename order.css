@@ -1,139 +1,147 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
-
-
-*{
-    font-family: 'Poppins', sans-serif;
-
-}
-
-
-
-.fruits h1{
-    text-align: center;
-    font-size: xx-large;
-}
-
-.vegetables h1{
-    text-align: center;
-    font-size: xx-large;
-}
-
-/* Ensure container has a consistent layout */
-.item-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 columns */
-    gap: 20px;
-    padding: 20px;
-}
-
-
-
-/* Style each item in the grid */
-.item {
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  form {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: solid 5px darkgreen;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  ul img {
+    height: 50px;
+    width: 80px;
+    float: left;
+  }
+  
+  p {
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="number"],
+  input[type="month"],
+  .search-container1 input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
     border: 1px solid #ccc;
-    border-radius: 10px;
-    background-color: #f9f9f9;
-}
-
-/* Make images uniform in size */
-.item img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover; /* ensures the image covers the area without distortion */
-    border-radius: 10px;
-    margin-bottom: 10px;
-}
-
-/* Adjust input and button spacing */
-.item input, .item button {
-    margin-top: 10px;
-}
-
-/* Specific styles for buttons */
-.item button {
-    background-color: #4CAF50;
-    color: white;
+    margin-bottom: 1rem;
+    border: solid 2px darkgreen;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 1rem;
+  }
+  
+  button[type="submit"],
+  .search-container1 button {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
     border: none;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    border-radius: 4px;
     cursor: pointer;
-    border-radius: 35px;
-}
-
-/* Add some spacing and styling to item containers */
-.item p, .item h2 {
-    margin: 5px 0;
-    font-style: normal;
-    font-weight: 300;
-}
-
-
-@media screen and (max-width: 1000px) {
-    .item-container {
-        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr)); /* Adjust for full-width columns */
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"] {
+    background-color: #044204;
+    color: white;
+  }
+  
+  button[type="submit"]:hover,
+  .search-container1 button:hover {
+    background-color: #51ac37;
+  }
+  
+  #search-section1 {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  
+  .search-container1 {
+    display: flex;
+      align-items: center;
+      width: 25%;
+      height:15px;
+      background-color: #51ac37;
+      padding: 8px;
+      border-radius: 35px;
+      cursor: pointer;
+      align-items: center;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
     }
-}
-
-#cart-table{
-    font-family: sans-serif;
-    width:100%;
-    border:1px solid darkgreen;
-    border-collapse: collapse;    
-}
-
-#cart-table th{
-    background-color:darkgreen;
-    color:#fff;        
-    border:1px solid #ccc;
-    padding:6px 12px;
-
-}
-
-#cart-table td{
-    border:1px solid darkgreen;
-    padding:6px 12px;
-}
-#cart-table td:last-child{
-    text-align: center;
-}
-
-#cart-table td button{
-    visibility: visible;
-    border:none;
-    height:40px;
-    width:100px;
-    padding:3px;
-    color:#fff;
-    background-color:olivedrab;
-}
-
-.cart-table td.cart_total_cell {
-    visibility: hidden;
-}
-
-#save-favorite , #apply-favorite, #buy-now{
-    background-color: #4CAF50;
-    font-size: large;
-    border: none;
-    color: #fff;
-    border-radius: 5px;
-    padding: 15px;
-    margin: 10px;
     
-}
-
-
-#c-text h2{
-    text-align: center;
-    font-size: xx-large;
-    text-decoration: solid;
-}
+  
+    .search-container1 input {
+      width: 100%;
+      border: none;
+      background: none;
+      outline: none;
+      color: rgb(0, 0, 0);
+      font-size: 16px;
+      padding: 6px;
+      margin-top: 13px;
+     
+  
+    }
+    
+    .search-container1 input  {
+      color: rgb(0, 0, 0);
+     
+    }
+  
+    ::placeholder {
+      color: rgb(255, 255, 255);
+     
+    }
+    
+    
+    .search-container1 button {
+      border: none;
+      background: none;
+      color: rgb(0, 0, 0);
+      cursor: pointer;
+    }
+    
+  
+    .search-container1 ,a .fas{
+      color: rgb(255, 255, 255);
+      font-size: 18px;
+    }
+  
